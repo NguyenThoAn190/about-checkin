@@ -1,0 +1,16 @@
+/* Custom Swiper Pagination  */
+
+.custom-swiper-pagination .swiper-pagination-bullet {
+  width: 20px; /* Thay đổi width trực tiếp */
+  height: 4px; /* Thay đổi height trực tiếp */
+  background: #bcbcbc; /* Thay đổi màu nền trực tiếp */
+  border-radius: 10px; /* Thay đổi border-radius trực tiếp */
+  opacity: 1; /* Đảm bảo hiển thị */
+  margin: 0 6px; /* Khoảng cách giữa các bullet */
+}
+
+.custom-swiper-pagination .swiper-pagination-bullet-active {
+  width: 30px; /* Thay đổi width trực tiếp cho active bullet */
+  height: 8px; /* Thay đổi height trực tiếp cho active bullet */
+  background: #fb6f00; /* Thay đổi màu nền trực tiếp cho active bullet */
+}
